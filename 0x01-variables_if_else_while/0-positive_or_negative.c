@@ -1,12 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* this code runsrandome numbers and print its status whither negative or positive or zero */
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
-	n = rand() - RAND_MAX / 2; 
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{
@@ -18,7 +23,7 @@ int main(void)
 	}
 	else
 	{
-    		printf("%i is Zero\n",n);
+		printf("%i is zero\n", n);
 	}
 	return (0);
 }
