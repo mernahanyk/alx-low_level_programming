@@ -1,4 +1,4 @@
-i#include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /* this code runsrandome numbers and print its status whither negative or positive or zero */
